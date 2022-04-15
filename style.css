@@ -1,0 +1,113 @@
+*{
+    margin : 0 ;
+    appearance: none;
+    -webkit-appearance: none;
+    box-sizing: border-box;
+}
+:root {
+    --btn-color:#ed3572;
+    --background-color:#77c593;
+    --text-color:black;
+}
+body{
+    height: 97vh;
+    width: 100vw;
+   background-color:var(--background-color);
+   color:var(--text-color);
+   display:flex;
+   flex-direction:column;
+   justify-content:flex-start;
+   align-items: center;
+   
+   
+}
+.container{
+    height:max-content;
+    width:max-content;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:20px;
+
+}
+form{
+    width: 300px;
+    height:max-content;
+    display:flex;
+    flex-direction: column;
+    background-color: var(--btn-color);
+    align-items: center;
+    border-radius: 10px;
+}
+input{
+    width: 200px;
+    border:0;
+    border-radius:5px;
+    margin-bottom:10px;
+    height:30px;
+    background-color: var(--background-color);
+    font-size: 17px;
+    font-weight: bold;
+    
+}
+label{
+    color:white;
+    font-weight:bold;
+    font-size: 17px;
+}
+button{
+    width:50px;
+    height:30px;
+    font-size: 17px;
+    font-weight: bold;
+    background-color:var(--background-color);
+    border:0;
+    border-radius:5px;
+    margin-bottom: 10px;
+}
+button:hover{
+    background-color: greenyellow;
+    color:black;
+    cursor:pointer;
+}
+output{
+    background-color: var(--btn-color);
+    margin-top: 10px;
+    width: 300px;
+    height: 200px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    border:0;
+    border-radius: 10px;
+    overflow: auto;
+    text-align: center;
+}
+footer{
+    width: 100vw;
+    font-size: 30px ;
+    font-weight: bold;
+    color:white;
+    background-color:var(--btn-color);
+    position: fixed;
+    height: max-content;
+    bottom: 0;
+    
+
+    
+}
+.footer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:5px;
+}
+.ghlogo{
+    width: 50px;
+    height: 50px
+}
+a{
+    color: white;
+    text-decoration: none;
+}
